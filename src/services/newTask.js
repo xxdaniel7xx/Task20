@@ -14,10 +14,10 @@ export function newTaskModule (userName) {
     const addBtns = document.getElementById('addDelBtns')
 
     // let arrCol =[ready, inProgress, finished]
-    if (getFromStorage(appState.currentUser.login).length !=0) {
-        content.innerHTML = getFromStorage(userName)
-
-        }
+    // if (getFromStorage(userName).length !=0) {
+    //     tasksCol.innerHTML = getFromStorage(userName)
+    //
+    //     }
     addTaskBtn.addEventListener('click', function() {
         addTaskBtn.hidden = true;
         sbmtTaskBtn.hidden = false;

@@ -78,8 +78,8 @@ loginForm.addEventListener("submit", function (e) {
     logOut.hidden = true;
 
     // The local storage update
-    localStorage.removeItem(appState.currentUser.login)
-    localStorage.setItem(appState.currentUser.login, JSON.stringify(content.innerHTML))
+    // localStorage.removeItem(appState.currentUser.login)
+    // localStorage.setItem(appState.currentUser.login, JSON.stringify(content.innerHTML))
 
     //Back to the start page
     document.getElementById('userName').remove();
