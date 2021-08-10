@@ -1,0 +1,41 @@
+#app-login-btn {
+  width: 160px;
+}
+
+.container {
+}
+
+p {
+  word-wrap: break-word;
+}
+
+.wrapper, .wrapperTask {
+  height: 70px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper:not(p):hover {
+  background-color: dodgerblue;
+}
+
+.wrapperTask:not(p):hover {
+  background-color: dodgerblue;
+}
+
+#ready, #inProgress, #finished {
+  min-height: 60px;
+}
+
+.inputCh {
+  height: 30px;
+}
+
+#userName {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 20px;
+}
